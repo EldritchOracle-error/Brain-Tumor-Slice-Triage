@@ -1,0 +1,16 @@
+# Python / Environment
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Datasets and Large Files
+dataset/
+*.nii.gz
+*.nii
+*.npy
+brats_project/checkpoints/*.pth
+brats_project/real_figures/
+*.DS_Store
+.streamlit/
